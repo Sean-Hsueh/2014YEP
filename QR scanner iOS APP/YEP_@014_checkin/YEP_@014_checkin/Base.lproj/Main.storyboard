@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Dfk-4y-5KC">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SourceHanSansTWHK-Bold.otf">
+            <string>SourceHanSansTWHK-Bold</string>
+        </mutableArray>
+        <mutableArray key="SourceHanSansTWHK-Normal.otf">
+            <string>SourceHanSansTWHK-Normal</string>
+            <string>SourceHanSansTWHK-Normal</string>
+        </mutableArray>
+        <mutableArray key="SourceHanSansTWHK-Regular.otf">
+            <string>SourceHanSansTWHK-Regular</string>
+            <string>SourceHanSansTWHK-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--View Controller Result-->
+        <scene sceneID="XjW-4d-CYv">
+            <objects>
+                <viewController id="Dfk-4y-5KC" customClass="ViewControllerResult" customModule="YEP__014_checkin" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WGc-DZ-lXy"/>
+                        <viewControllerLayoutGuide type="bottom" id="YFA-cm-p4l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k6L-Qb-qGu">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="KeyVision_ipad_screenshot.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="k0q-b3-4xM">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ule-pH-8fO">
+                                <rect key="frame" x="860" y="608" width="110" height="86"/>
+                                <state key="normal" title="Button" image="keyboard.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="showActionSheetTapped:" destination="Dfk-4y-5KC" eventType="touchDown" id="8Lg-o4-tbf"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="head.png" translatesAutoresizingMaskIntoConstraints="NO" id="yWf-Tp-wPZ">
+                                <rect key="frame" x="9" y="353" width="200" height="125"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="201533" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xQ1-b0-5u1">
+                                <rect key="frame" x="326" y="449" width="246" height="57"/>
+                                <fontDescription key="fontDescription" name="SourceHanSansTWHK-Normal" family="Source Han Sans TWHK" pointSize="50"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Thc-iU-ibf">
+                                <rect key="frame" x="966" y="398" width="42" height="35"/>
+                                <fontDescription key="fontDescription" name="SourceHanSansTWHK-Regular" family="Source Han Sans TWHK" pointSize="46"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="John Smith" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIo-Pn-TD9">
+                                <rect key="frame" x="179" y="371" width="541" height="89"/>
+                                <fontDescription key="fontDescription" name="SourceHanSansTWHK-Bold" family="Source Han Sans TWHK" pointSize="60"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="亞洲旅客" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xMo-Yx-HXo">
+                                <rect key="frame" x="326" y="320" width="246" height="57"/>
+                                <fontDescription key="fontDescription" name="SourceHanSansTWHK-Normal" family="Source Han Sans TWHK" pointSize="35"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BVU-SP-aGF">
+                                <rect key="frame" x="881" y="381" width="69" height="70"/>
+                                <state key="normal" title="Button" image="tomato.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="VegeIconTapped:" destination="Dfk-4y-5KC" eventType="touchDown" id="xY1-k4-9XN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ulC-NZ-08S">
+                                <rect key="frame" x="733" y="381" width="73" height="70"/>
+                                <state key="normal" title="Button" image="cow.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="BeefIconTapped:" destination="Dfk-4y-5KC" eventType="touchDown" id="1Bs-1a-aOV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="deg-Zp-NvE">
+                                <rect key="frame" x="814" y="398" width="42" height="35"/>
+                                <fontDescription key="fontDescription" name="SourceHanSansTWHK-Regular" family="Source Han Sans TWHK" pointSize="46"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.97647058823529409" blue="0.3411764705882353" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="labelID" destination="xQ1-b0-5u1" id="isZ-sL-Jjn"/>
+                        <outlet property="labelMeatEater" destination="deg-Zp-NvE" id="1u1-zz-6yh"/>
+                        <outlet property="labelName" destination="pIo-Pn-TD9" id="vgI-MI-pSU"/>
+                        <outlet property="labelTraveler" destination="xMo-Yx-HXo" id="SCN-Zb-Eer"/>
+                        <outlet property="labelVegeEater" destination="Thc-iU-ibf" id="eja-kb-2L3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xfE-jn-3RO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128" y="996"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="KeyVision_ipad_screenshot.jpg" width="1227" height="921"/>
+        <image name="cow.png" width="128" height="128"/>
+        <image name="head.png" width="128" height="128"/>
+        <image name="keyboard.png" width="128" height="128"/>
+        <image name="tomato.png" width="128" height="128"/>
+    </resources>
+</document>

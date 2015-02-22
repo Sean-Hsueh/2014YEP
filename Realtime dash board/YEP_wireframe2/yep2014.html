@@ -1,0 +1,341 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaxFront | Bootstrap Front-End</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Ruda:400,900,700' rel='stylesheet' type='text/css'>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="css/font-awesome.css">
+  <!-- Bootstrap -->
+  <link href="assets/css/bootstrap.css" rel="stylesheet">
+  <!-- Template Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/colors/blue.css">
+  <!-- Layer Slider -->
+  <link rel="stylesheet" href="layerslider/css/layerslider.css" type="text/css">
+
+
+  <!-- Support for HTML5 -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!-- Enable media queries on older browsers -->
+  <!--[if lt IE 9]>
+    <script src="assets/js/respond.min.js"></script>
+  <![endif]-->
+
+  <script src="js/modernizr.js"></script>
+</head>
+<body>
+  <div class="topbar clearfix">
+    <div class="container">
+    <div class="col-lg-12 text-right">
+              <div class="social_buttons">
+                  <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook"></i></a>
+                  <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="#" data-toggle="tooltip" data-placement="bottom" title="Google+"><i class="fa fa-google-plus"></i></a>
+                  <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble"></i></a>
+                  <a href="#" data-toggle="tooltip" data-placement="bottom" title="RSS"><i class="fa fa-rss"></i></a>
+              </div>
+    </div>
+    </div><!-- end container -->
+  </div><!-- end topbar -->
+
+  <header class="header">
+    <div class="container">
+      <div class="site-header clearfix">
+        <div class="col-lg-3 col-md-3 col-sm-12 title-area">
+          <div class="site-title" id="title">
+            <a href="index.html" title="">
+              <h4>IBM航空<span>塔臺最新資訊</span></h4>
+            </a>
+          </div>
+        </div>
+        <!--
+        <div class="col-lg-9 col-md-12 col-sm-12">
+           <div id="nav" class="right">
+                <div class="container clearfix">
+                <ul id="jetmenu" class="jetmenu blue">
+                    <li><a href="#">Home</a>
+                        <ul class="dropdown">
+                            <li><a href="index.html">Home - Shop Version</a></li>
+                            <li><a href="index2.html">Home - Agency Version</a></li>
+                            <li><a href="index3.html">Home - Business Version</a></li>
+                        </ul>
+                    </li>
+                    <li class="active"><a href="#">Pages</a>
+                        <ul class="dropdown">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="team-members.html">Team Members</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="404.html">404 Error</a></li>
+                            <li><a href="faq.html">FAQ Page</a></li>
+                            <li><a href="left-sidebar.html">Left Sidebar</a></li>
+                            <li><a href="right-sidebar.html">Right Sidebar</a></li>
+                            <li><a href="fullwidth.html">Full Width</a></li>
+                            <li><a href="login.html">Login</a></li>
+                            <li><a href="register.html">Register</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Shop</a>
+                        <ul class="dropdown">
+                            <li><a href="digital-download.html">Products Page</a></li>
+                            <li><a href="single-product.html">Single Product</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                            <li><a href="account.html">Account Page</a></li>
+                            <li><a href="support.html">Support Center</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Portfolio</a>
+                        <ul class="dropdown">
+                            <li><a href="single-portfolio-1.html">Single Portfolio 1</a></li>
+                            <li><a href="single-portfolio-2.html">Single Portfolio 2</a></li>
+                            <li><a href="portfolio-2.html">Portfolio (2 Columns)</a></li>
+                            <li><a href="portfolio-3.html">Portfolio (3 Columns)</a></li>
+                            <li><a href="gallery-portfolio.html">Gallery</a></li>
+                            <li><a href="masonry-grid-portfolio.html">Masonry Grid Style</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Blog</a>
+                        <ul class="dropdown">
+                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                            <li><a href="blog-right-sidebar.html">Blog Right Sidebar</a></li>
+                            <li><a href="single-with-sidebar.html">Single with Sidebar</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        -->
+      </div>
+    </div>
+  </header>
+
+  <div class="clearfix"></div>
+  <div class="divider"></div>
+
+  <div class="container">
+    <div class="general-title text-center">
+      <h3>目前登機狀況</h3>
+    </div>
+
+    <div class="skills text-center">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <span class="chart" id="chart_af" data-percent="90">
+          <span class="percent"></span>
+        </span>
+        <h4 class="title">非洲</h4>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <span class="chart"  id="chart_us" data-percent="75">
+          <span class="percent"></span>
+        </span>
+        <h4 class="title">美洲</h4>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <span class="chart"  id="chart_au" data-percent="65">
+          <span class="percent"></span>
+        </span>
+        <h4 class="title">大洋洲</h4>
+      </div>
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <span class="chart"  id="chart_eu" data-percent="80">
+          <span class="percent"></span>
+        </span>
+        <h4 class="title">歐洲</h4>
+      </div>
+    </div>
+  </div>
+
+  <div class="clearfix"></div>
+  <div class="divider"></div>
+
+    <section class="section1">
+      <div class="container clearfix">
+      <div class="content col-lg-12 col-md-12 col-sm-12 clearfix">
+
+        <div id="bbpress-forums">
+            <ul class="bbp-forums">
+                <li class="bbp-header">
+                    <ul class="forum-titles">
+                        <li class="bbp-forum-info">登機乘客</li>
+                        <li class="bbp-forum-topic-count">同行人數</li>
+                        <li class="bbp-forum-reply-count">前往洲別</li>
+                        <li class="bbp-forum-topic-count">登機時間</li>
+                    </ul>
+                </li><!-- .bbp-header -->
+
+                <li class="bbp-body" id="checkin1">
+                    <ul class="forum type-forum status-publish hentry loop-item-0 odd bbp-forum-status-open bbp-forum-visibility-publish">
+                        <li class="bbp-forum-info">
+                            <a class="bbp-forum-title" href="support.html#" title="General">Cynthia Liu (012345)</a>
+                        </li>
+                        <li class="bbp-forum-topic-count">1</li>
+                        <li class="bbp-forum-reply-count">美</li>
+                        <li class="bbp-forum-reply-count">18:34</li>
+                    </ul>
+                 </li>
+                 <li class="bbp-body" id="checkin2">
+                     <ul class="forum type-forum status-publish hentry loop-item-0 odd bbp-forum-status-open bbp-forum-visibility-publish">
+                         <li class="bbp-forum-info">
+                             <a class="bbp-forum-title" href="support.html#" title="General">Rita Wang (999999)</a>
+                         </li>
+                         <li class="bbp-forum-topic-count">0</li>
+                         <li class="bbp-forum-reply-count">歐</li>
+                         <li class="bbp-forum-reply-count">18:29</li>
+                     </ul>
+                  </li>
+                  <li class="bbp-body" id="checkin3">
+                      <ul class="forum type-forum status-publish hentry loop-item-0 odd bbp-forum-status-open bbp-forum-visibility-publish">
+                          <li class="bbp-forum-info">
+                              <a class="bbp-forum-title" href="support.html#" title="General">Chiwen Chang (98765)</a>
+                          </li>
+                          <li class="bbp-forum-topic-count">1</li>
+                          <li class="bbp-forum-reply-count">大洋</li>
+                          <li class="bbp-forum-reply-count">18:28</li>
+                      </ul>
+                   </li>
+                   <li class="bbp-body" id="checkin4">
+                       <ul class="forum type-forum status-publish hentry loop-item-0 odd bbp-forum-status-open bbp-forum-visibility-publish">
+                           <li class="bbp-forum-info">
+                               <a class="bbp-forum-title" href="support.html#" title="General">Sean Hsueh (012345)</a>
+                           </li>
+                           <li class="bbp-forum-topic-count">3</li>
+                           <li class="bbp-forum-reply-count">非</li>
+                           <li class="bbp-forum-reply-count">18:24</li>
+                       </ul>
+                    </li>
+                    <li class="bbp-body" id="checkin5">
+                        <ul class="forum type-forum status-publish hentry loop-item-0 odd bbp-forum-status-open bbp-forum-visibility-publish">
+                            <li class="bbp-forum-info">
+                                <a class="bbp-forum-title" href="support.html#" title="General">Sherwood Hochen (777777)</a>
+                            </li>
+                            <li class="bbp-forum-topic-count">1</li>
+                            <li class="bbp-forum-reply-count">歐</li>
+                            <li class="bbp-forum-reply-count">18:20</li>
+                        </ul>
+                     </li>
+                  </ul><!-- .forums-directory -->
+                </div> <!-- /bbpress -->
+        </div><!-- end content -->
+    </div><!-- end container -->
+  </section><!-- end section -->
+<!--
+  <section class="section1">
+    <div class="container">
+            <div class="general-title text-center">
+                <h3>SOME STATS</h3>
+                <p>Important information about us</p>
+                <hr>
+            </div>
+
+            <div class="stat f-container">
+                <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <i class="fa fa-film fa-4x"></i>
+                    <div class="milestone-counter">
+                        <span class="stat-count highlight">42</span>
+                        <div class="milestone-details">Films Produced</div>
+                    </div>
+                </div>
+                <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <i class="fa fa-laptop fa-4x"></i>
+                    <div class="milestone-counter">
+                        <span class="stat-count highlight">105</span>
+                        <div class="milestone-details">Completed Projects</div>
+                    </div>
+                </div>
+                <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <i class="fa fa-comments-o fa-4x"></i>
+                    <div class="milestone-counter">
+                        <span class="stat-count highlight">492</span>
+                        <div class="milestone-details">Questions Answered</div>
+                    </div>
+                </div>
+                <div class="f-element col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <i class="fa fa-smile-o fa-4x"></i>
+                    <div class="milestone-counter">
+                        <span class="stat-count highlight">790</span>
+                        <div class="milestone-details">Happy Clients</div>
+                    </div>
+                </div>
+            </div>
+
+    </div>
+  </section>
+-->
+
+
+
+      <!-- Main Scripts-->
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.unveilEffects.js"></script>
+  <script src="js/retina-1.1.0.js"></script>
+  <script src="js/jquery.hoverex.min.js"></script>
+    <script src="js/jetmenu.js"></script>
+  <script src="js/jquery.jigowatt.js"></script>
+  <script src="js/jquery.animate-enhanced.min.js"></script>
+  <script src="js/jquery.easypiechart.min.js"></script>
+  <script src="js/custom.js"></script>
+    <script>
+    
+    // Chart Effects;
+    $('.chart').easyPieChart({
+      easing: 'easeOutBounce',
+      size : 180,
+      animate : 2000,
+      lineWidth : 10,
+      lineCap : 'square',
+      lineWidth : 18,
+      barColor : '#3498db',
+      trackColor : '#f9f9f9',
+      scaleColor : false,
+      onStep: function(from, to, percent) {
+      $(this.el).find('.percent').text(Math.round(percent)+'%');
+      }
+    });
+    setTimeout(function() {
+        //$('.chart').data('easyPieChart').update(40);
+        $("#chart_af").data('easyPieChart').update(40);
+        $("#chart_us").data('easyPieChart').update(20);
+        $("#chart_au").data('easyPieChart').update(100);
+        $("#chart_eu").data('easyPieChart').update(10);
+    }, 3000);
+    
+function executeQuery() {
+
+var xmlhttp= new XMLHttpRequest();
+var url="http://162.222.179.179:8083/results";
+xmlhttp.open("GET",url,false);
+xmlhttp.setRequestHeader("Content-Type", "application/x-www-form-urlencoded; charset=UTF-8");
+xmlhttp.send();
+
+    var json_result;
+    $.get("http://162.222.179.179:8081/results",function(data,status){
+        json_result = $.parseJSON(data)
+    })
+
+
+  setTimeout(executeQuery, 5000); // you could choose not to continue on failure...
+}
+
+$(document).ready(function() {
+  // run the first time; all subsequent calls will take care of themselves
+  setTimeout(executeQuery, 1000);
+});
+  </script>
+  </body>
+</html>
+
